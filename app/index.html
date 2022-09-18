@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.min.css">
+  <title>Move</title>
+  <link rel="preload" as="font" href="./fonts/Montserrat-Regular.woff2" type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" as="font" href="./fonts/Montserrat-ExtraBold.woff2" type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" as="font" href="./fonts/WorkSans-Regular.woff2" type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" as="font" href="./fonts/WorkSans-Medium.woff2" type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" as="font" href="./fonts/WorkSans-SemiBold.woff2" type="font/woff2" crossorigin="anonymous">
+</head>
+
+<body class="body body--main" style="background-image: url('./images/body-bg/body-bg.png');">
+
+  @include('html/header.html')
+  <main class="main">
+    <h1 class="sr-only">
+      We will teach you the workout
+    </h1>
+    @include('html/hero.html')
+    @include('html/about.html')
+    @include('html/education.html')
+    @include('html/coaching.html')
+    @include('html/reviews.html')
+  </main>
+  @include('html/footer.html')
+
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>

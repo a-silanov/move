@@ -1,0 +1,128 @@
+.training {
+  padding-top: 170px;
+
+  &__container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 170px;
+
+    @include tablet {
+      align-items: center;
+    }
+
+    @include small-tablet {
+      flex-direction: column-reverse;
+      margin-bottom: 100px
+    }
+  }
+
+  &__content {
+    width: 450px;
+    margin-right: 25px;
+
+    @include small-tablet {
+      width: 100%;
+      margin-right: 0;
+    }
+  }
+
+  &__title {
+    margin-bottom: 16px;
+  }
+
+  &__descr {
+    font-weight: 600;
+    font-size: 16px;
+    color: #808386;
+    margin-bottom: 24px;
+  }
+
+  &__text {
+    font-size: 16px;
+    margin-bottom: 24px;
+  }
+
+  &__price {
+    display: block;
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 16px;
+  }
+
+  &__link {
+    max-width: 295px;
+    width: 100%;
+  }
+
+  &__img {
+    max-width: 620px;
+    width: 100%;
+    height: 590px;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    @include tablet {
+      max-width: 450px;
+      height: 400px;
+    }
+
+    @include small-tablet {
+      max-width: 100%;
+      margin-bottom: 24px;
+    }
+  }
+
+  &__bottom {
+    padding-top: 240px;
+    padding-bottom: 95px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+
+    &::before {
+      content: "";
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(276.14deg, rgba(16, 16, 15, 0.54) 2.14%, rgba(64, 56, 42, 0.300176) 59.68%, rgba(243, 220, 174, 0) 93.56%);
+      transform: matrix(-1, 0, 0, 1, 0, 0);
+      position: absolute;
+      left: 0;
+      top: 0;
+      z-index: -1;
+    }
+
+    @include small-tablet {
+      padding-top: 110px;
+      padding-bottom: 400px;
+      background-position: right;
+
+      &::before {
+        background: linear-gradient(191.24deg, rgba(16, 16, 15, 0.54) 36.91%, rgba(64, 56, 42, 0.300176) 62.79%, rgba(243, 220, 174, 0) 78.02%);
+        transform: matrix(-1, 0, 0, 1, 0, 0);
+      }
+    }
+  }
+
+  &__blockquote {
+    max-width: 440px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 48px;
+    color: #EFF0F1;
+
+    @include small-tablet {
+      font-size: 30px;
+    }
+  }
+
+  @include small-tablet {
+    padding-top: 120px;
+  }
+}

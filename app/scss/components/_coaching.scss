@@ -1,0 +1,124 @@
+.coaching {
+  padding-top: 152px;
+
+  &__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    @include small-tablet {
+      flex-direction: column;
+    }
+  }
+
+  &__img {
+    width: 670px;
+    height: 400px;
+    margin-right: 25px;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    @include small-tablet {
+      width: 100%;
+      height: 250px;
+      margin-right: 0;
+      margin-bottom: 24px;
+    }
+  }
+
+  &__info {
+    width: 450px;
+
+    @include small-tablet {
+      width: 100%;
+    }
+  }
+
+  &__title {
+    margin-bottom: 15px;
+  }
+
+  &__descr {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    color: #808386;
+    margin-bottom: 24px;
+  }
+
+  &__text {
+    margin-bottom: 24px;
+  }
+
+  &__blockquoute {
+    max-width: 870px;
+    margin: 0 auto;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 36px;
+    color: #A7ACAE;
+
+    @include small-tablet {
+      padding-top: 150px;
+      padding-bottom: 70px;
+    }
+
+    @include mobile {
+      font-size: 20px;
+    }
+  }
+
+  &__bigimg {
+    width: 100%;
+    height: 830px;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    @include small-tablet {
+      height: 430px;
+    }
+  }
+
+  @include small-tablet {
+    padding-top: 95px;
+  }
+
+  &__links {
+    display: block;
+    width: 200px;
+
+    @include small-tablet {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 340px;
+    margin: 0;
+    }
+  }
+
+  &__link {
+    width: 100%;
+
+    &:not(:last-child) {
+      margin-right: 24px;
+
+      @include small-tablet {
+        margin-right: 0;
+        margin-bottom: 10px;
+      }
+    }
+  }
+}
+

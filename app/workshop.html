@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.min.css">
+  <title>Move workshop</title>
+  <link rel="preload" as="font" href="./fonts/Montserrat-Regular.woff2" type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" as="font" href="./fonts/Montserrat-ExtraBold.woff2" type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" as="font" href="./fonts/WorkSans-Regular.woff2" type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" as="font" href="./fonts/WorkSans-Medium.woff2" type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" as="font" href="./fonts/WorkSans-SemiBold.woff2" type="font/woff2" crossorigin="anonymous">
+</head>
+
+<body class="body body--workshop" style="background-image: url('./images/body-bg/workshop-bg.png');">
+
+  @include('html/header.html')
+  <main class="main">
+    <h1 class="sr-only">
+      Workshop
+    </h1>
+    @include('html/workshop.html')
+    @include('html/student-reviews.html')
+  </main>
+  @include('html/footer.html')
+  @include('html/modal-card.html')
+
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>

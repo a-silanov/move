@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.min.css">
+  <title>Move</title>
+  <link rel="preload" as="font" href="./fonts/Montserrat-Regular.woff2" type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" as="font" href="./fonts/Montserrat-ExtraBold.woff2" type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" as="font" href="./fonts/WorkSans-Regular.woff2" type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" as="font" href="./fonts/WorkSans-Medium.woff2" type="font/woff2" crossorigin="anonymous">
+  <link rel="preload" as="font" href="./fonts/WorkSans-SemiBold.woff2" type="font/woff2" crossorigin="anonymous">
+</head>
+
+<body class="body body--main" style="background-image: url('./images/body-bg/body-bg.png');">
+
+  <header class="header">
+  <div class="container header__container">
+    <a class="logo" href="index.html">
+      <img src="./images/logo.svg" loading="lazy" alt="Logo" width="50" height="15">
+    </a>
+    <button class="burger-btn" aria-label="open or close menu">
+      <span class="burger-btn__line"></span>
+    </button>
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__item">
+          <a href="#aaaa" class="nav__link" data-dropdown>
+            Events
+          </a>
+          <ul class="dropdown">
+            <li class="dropdown__item">
+              <a class="dropdown__link" href="workshop.html">
+                Workshops
+              </a>
+            </li>
+            <li class="dropdown__item">
+              <a class="dropdown__link" href="retreats.html">
+                Retreats
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li class="nav__item">
+          <a href="training.html" class="nav__link" data-title="Classes and privetes">
+            Classes and privates
+          </a>
+        </li>
+        <li class="nav__item">
+          <a href="#" class="nav__link">
+            Online training
+          </a>
+        </li>
+        <li class="nav__item">
+          <a href="about.html" class="nav__link">
+            About
+          </a>
+        </li>
+        <li class="nav__item">
+          <a href="contacts.html" class="nav__link">
+            Contact
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+  <main class="main">
+    <h1 class="sr-only">
+      We will teach you the workout
+    </h1>
+    <section class="hero">
+  <div class="swiper hero__slider">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <div class="hero__box" style="background-image: linear-gradient(270.34deg, rgba(231, 185, 93, 0.12) -0.9%, rgba(163, 139, 93, 0.12) 39.83%, rgba(0, 0, 0, 0.4) 80.71%),url('./images/hero-slider/hero-bg.jpg');">
+          <h2 class="title hero__title">
+            We are meant to move
+          </h2>
+          <p class="hero__descr">
+            Join our community and develop a body you can trust
+          </p>
+          <div class="hero__btns">
+            <a class="hero__link btn btn--orange" href="#link">
+              move offline
+            </a>
+            <a class="hero__link btn btn--blue" href="#">
+              move online
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="hero__box" style="background-image: linear-gradient(270.34deg, rgba(231, 185, 93, 0.12) -0.9%, rgba(163, 139, 93, 0.12) 39.83%, rgba(0, 0, 0, 0.4) 80.71%),url('./images/hero-slider/hero-bg2.jpg');">
+          <h2 class="title hero__title">
+            We are meant to move
+          </h2>
+          <p class="hero__descr">
+            Join our community and develop a body you can trust
+          </p>
+          <div class="hero__btns">
+            <a class="hero__link btn btn--orange" href="#link">
+              move offline
+            </a>
+            <a class="hero__link btn btn--blue" href="#">
+              move online
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="hero__box" style="background-image: linear-gradient(270.34deg, rgba(231, 185, 93, 0.12) -0.9%, rgba(163, 139, 93, 0.12) 39.83%, rgba(0, 0, 0, 0.4) 80.71%),url('./images/hero-slider/hero-bg3.jpg');">
+          <h2 class="title hero__title">
+            We are meant to move
+          </h2>
+          <p class="hero__descr">
+            Join our community and develop a body you can trust
+          </p>
+          <div class="hero__btns">
+            <a class="hero__link btn btn--orange" href="#link">
+              move offline
+            </a>
+            <a class="hero__link btn btn--blue" href="#">
+              move online
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="swiper-pagination"></div>
+    <button class="slider-btn slider-btn--next">
+    </button>
+    <button class="slider-btn slider-btn--prev">
+    </button>
+  </div>
+</section>
+    <section class="about">
+  <div class="about__container">
+    <h2 class="sr-only">
+      About us
+    </h2>
+    <div class="about__img">
+      <img src="./images/person/about-img.jpg" loading="lazy" alt="about-img">
+    </div>
+    <div class="about__right">
+      <h3 class="about__subtitle">
+        Hello and welcome
+      </h3>
+      <div class="about__text">
+        <p>
+          My name is Lukas and on this website, I present my approaches to a playful and acrobatic movement practice. While I am into teaching classes, workshops, and preparing online programs, Franz is helping with research, development, and tech support.
+        </p>
+        <p>
+          To learn more about my approach, my practice and the team you can use the link below.
+        </p>
+      </div>
+      <a class="about__link" href="about.html">
+        Read more
+        <svg>
+          <use xlink:href="images/sprite.svg#arrow-right"></use>
+        </svg>
+      </a>
+    </div>
+  </div>
+</section>
+    <section class="education" id="link">
+  <div class="container">
+    <h2 class="title education__title">
+      Classes and privates
+    </h2>
+    <p class="education__descr">
+      Ready to experience the world differently? Move with us!
+    </p>
+    <ul class="education__list">
+      <li class="education__item">
+        <article class="education__article education-article">
+          <div class="education-article__img">
+            <img src="./images/education/3.jpg" loading="lazy" alt="regular classes" width="362" height="130">
+          </div>
+          <div class="education-article__box">
+            <div class="education-article__inner">
+              <h3 class="education-article__title">
+                Regular classes
+              </h3>
+              <span class="education-article__price">
+                From 13 €
+              </span>
+            </div>
+            <span class="education-article__highlights">
+              Highlights
+            </span>
+            <ul class="education-article__list">
+              <li class="education-article__item">
+                <span class="education-article__benefit">
+                  Movement and softacro
+                </span>
+              </li>
+              <li class="education-article__item">
+                <span class="education-article__benefit">
+                  Rings and handstand
+                </span>
+              </li>
+            </ul>
+            <p class="education-article__text">
+              Regular classes and privates are perfect to start or deepen your movement practice and be motivated by the great support of the community.
+            </p>
+            <a class="education-article__link btn btn--orange" href="#">
+              info and booking
+            </a>
+          </div>
+        </article>
+      </li>
+      <li class="education__item">
+        <article class="education__article education-article">
+          <div class="education-article__img">
+            <img src="./images/education/2.jpg" loading="lazy" alt="regular classes" width="362" height="130">
+          </div>
+          <span class="education-article__label">
+            events
+          </span>
+          <div class="education-article__box">
+            <div class="education-article__inner">
+              <h3 class="education-article__title">
+                Workshops
+              </h3>
+              <span class="education-article__price">
+                From 80 €
+              </span>
+            </div>
+            <span class="education-article__highlights">
+              Highlights
+            </span>
+            <ul class="education-article__list">
+              <li class="education-article__item">
+                <span class="education-article__benefit">
+                  Indoor and outdoor
+                </span>
+              </li>
+              <li class="education-article__item">
+                <span class="education-article__benefit">
+                  Different locations
+                </span>
+              </li>
+            </ul>
+            <p class="education-article__text">
+              Dive into one of my favorite topics in a half-day, day, or weekend event. The topics reach from Ringstrength & Handstand to more abstract concepts like Softacrobatics.
+            </p>
+            <a class="education-article__link btn btn--orange" href="#">
+              info and booking
+            </a>
+          </div>
+        </article>
+      </li>
+      <li class="education__item">
+        <article class="education__article education-article">
+          <div class="education-article__img">
+            <img src="./images/education/7.jpg" loading="lazy" alt="regular classes" width="362" height="130">
+          </div>
+          <span class="education-article__label">
+            events
+          </span>
+          <div class="education-article__box">
+            <div class="education-article__inner">
+              <h3 class="education-article__title">
+                Retreats
+              </h3>
+            </div>
+            <span class="education-article__highlights">
+              Highlights
+            </span>
+            <ul class="education-article__list">
+              <li class="education-article__item">
+                <span class="education-article__benefit">
+                  Exiting locations
+                </span>
+              </li>
+              <li class="education-article__item">
+                <span class="education-article__benefit">
+                  Unique programs
+                </span>
+              </li>
+            </ul>
+            <p class="education-article__text">
+              Full body immersion into a mix of guided movement sessions & free time with a fun community.
+            </p>
+            <a class="education-article__link btn btn--orange" href="#">
+              info and booking
+            </a>
+          </div>
+        </article>
+      </li>
+    </ul>
+  </div>
+</section>
+    <section class="coaching">
+  <div class="container">
+    <div class="coaching__inner">
+      <div class="coaching__img">
+        <img src="./images/coaching-img.jpg" loading="lazy" alt="coaching img" width="670" height="400">
+      </div>
+      <div class="coaching__info">
+        <h2 class="coaching__title title">
+          Online coaching and programs
+        </h2>
+        <p class="coaching__descr">
+          An effective online training with our app
+        </p>
+        <p class="coaching__text">
+          Have a look at different online programs to be able to learn from everywhere. Sending in videos to get online feedback is also possible.
+        </p>
+        <div class="coaching__links">
+          <a class="coaching__link btn btn--blue" href="#">
+          move online
+        </a></div>
+
+      </div>
+    </div>
+    <blockquote class="coaching__blockquoute">
+      I believe in the ability of each and every person to build awareness for their bodies and discover their personal way to move and thrive physically and mentally.
+    </blockquote>
+  </div>
+  <div class="coaching__bigimg">
+    <img src="./images/coaching-bigimg.jpg" loading="lazy" aria-hidden="true" alt="" width="1400" height="775">
+  </div>
+</section>
+    <section class="reviews">
+  <div class="container reviews__container">
+    <div class="reviews__left">
+      <h2 class="reviews__title title">
+        What do the students say about my training approach?
+      </h2>
+      <p class="reviews__text">
+        The participants of my regular classes and other events can best say why they feel in good hands with my way of the training.
+      </p>
+    </div>
+    <div class="reviews__right">
+      <div class="swiper reviews__slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="reviews__box">
+              <div class="reviews__img">
+                <img src="./images/reviews/4.jpg" loading="lazy" alt="review" width="175" height="175">
+              </div>
+              <div class="reviews__inner">
+                <span class="reviews__name">
+                  Anni <br>
+                </span>
+                <span class="reviews__descr">
+                  Marketing
+                </span>
+              </div>
+              <p class="reviews__сomment">
+                “Highly recommend to join his workshops. I joined the handstand workshop and loved every second of it!”
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="reviews__box">
+              <div class="reviews__img">
+                <img src="./images/reviews/1.jpg" loading="lazy" alt="review" width="175" height="175">
+              </div>
+              <div class="reviews__inner">
+                <span class="reviews__name">
+                  Timo <br>
+                </span>
+                <span class="reviews__descr">
+                  Strength and mobility class
+                </span>
+              </div>
+              <p class="reviews__сomment">
+                “Thanks to Organic Movement, I found the right training routine for me after just two classes.”
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="reviews__box">
+              <div class="reviews__img">
+                <img src="./images/reviews/2.jpg" loading="lazy" alt="review" width="175" height="175">
+              </div>
+              <div class="reviews__inner">
+                <span class="reviews__name">
+                  Liza <br>
+                </span>
+                <span class="reviews__descr">
+                  Strength and mobility class
+                </span>
+              </div>
+              <p class="reviews__сomment">
+                “Thanks to Organic Movement, I found the right training routine for me after just two classes.”
+              </p>
+            </div>
+          </div>
+        </div>
+        <button class="slider-btn slider-btn--transparent slider-btn--next">
+        </button>
+        <button class="slider-btn slider-btn--transparent slider-btn--prev">
+        </button>
+      </div>
+      <div class="reviews__links">
+        <a class="reviews__link btn btn--blue" href="#">
+          move online
+        </a>
+        <a class="reviews__link btn btn--orange" href="#">
+          move offline
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+  </main>
+  <footer class="footer">
+  <div class="container footer__container">
+    <ul class="social">
+      <li class="social__item">
+        <a class="social__link social__link--insta" href="https://www.instagram.com/lukasflint/" target="_blank" aria-label="Our intagram page">
+          <svg>
+            <use xlink:href="images/sprite.svg#insta"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="social__item">
+        <a class="social__link social__link--fb" href="#" target="_blank" aria-label="Our facebook page">
+          <svg>
+            <use xlink:href="images/sprite.svg#fb"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="social__item">
+        <a class="social__link social__link--tw" href="#" target="_blank" aria-label="Our twitter page">
+          <svg>
+            <use xlink:href="images/sprite.svg#youtube"></use>
+          </svg>
+        </a>
+      </li>
+    </ul>
+    <nav class="footer__nav">
+      <ul class="footer__list">
+        <li class="footer__item">
+          <a class="footer__link footer__link--mail" href="mailto:lukas@organic-movement.de">
+            lukas@organic-movement.de
+          </a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link footer__link--tel" href="tel:+4915732310340">
+            +49 1573 2310340
+          </a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">
+            Impressum
+          </a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">
+            Datenschutz
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</footer>
+
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>

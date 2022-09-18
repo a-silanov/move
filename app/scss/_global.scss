@@ -1,0 +1,215 @@
+
+.body {
+  font-family: 'WorkSans', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.3;
+  color: $color-dark;
+  overflow-x: hidden;
+  position: relative;
+  background-repeat: no-repeat;
+  max-width: 1440px;
+  margin: 0 auto;
+
+
+  &--main {
+    background-position: left top 99vh;
+    background-size: 100% 85%;
+
+    .main {
+      padding-top: 0;
+    }
+  }
+
+  &--training {
+    background-position: left top 40px;
+    background-size: 100% 100%;
+  }
+
+  &--contacts {
+    background-position: right top;
+    background-size: 70% 100%;
+  }
+
+  &--about {
+    background-position: left top;
+    background-size: 100% 95%;
+  }
+
+  &--workshop {
+    background-position: left top 5vh;
+    background-size: 100% 94%;
+  }
+
+  &--retreats {
+    background-position: left top;
+    background-size: 100% 82%;
+  }
+
+  @include mobile {
+    font-size: 16px;
+
+    &--main {
+      background-position: left -8vh top 70vh;
+      background-size: cover;
+    }
+  }
+}
+
+.body--hidden {
+  overflow: hidden;
+}
+
+.container {
+  max-width: 1080px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.main {
+  padding-top: 80px;
+}
+
+.sr-only {
+  position: absolute;
+  width: 0px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+.title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 1.3;
+  color: #565A5D;
+
+
+  &--big {
+    font-weight: 700;
+    font-size: 40px;
+    color: $color-dark;
+    text-align: center;
+    margin-bottom: 16px;
+  }
+
+  @include small-tablet {
+    font-size: 24px;
+
+    &--big {
+      font-size: 30px;
+    }
+  }
+}
+
+.descr {
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+  color: #808386;
+  margin-bottom: 48px;
+
+  @include small-tablet {
+    font-size: 16px;
+    margin-bottom: 40px;
+  }
+}
+
+.btn {
+  display: inline-block;
+  text-align: center;
+  padding: 12px 30px;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: $color-white;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    &--blue {
+      background-color: #000;
+    }
+  }
+
+  &--orange {
+    background-color: $color-orange;
+
+    &:hover {
+      background-color: #fdb016;
+    }
+  }
+
+  &--blue {
+    background-color: $color-blue;
+
+    &:hover {
+      background-color: #72bece;
+    }
+  }
+
+  &--gray {
+    background-color: #D3D5D6;
+
+    &:hover {
+      background-color: #a7a7a7;
+    }
+  }
+
+  @include tablet {
+    padding: 12px 20px;
+  }
+}
+
+.slider-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  background-color: rgba(#F2F2F3, 0.5);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 24px;
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  z-index: 999;
+  transition: opacity 0.3s ease;
+
+  svg {
+    width: 24px;
+    height: 24px;
+    fill: $color-orange;
+  }
+
+  &:hover {
+    opacity: 0.5;
+  }
+
+  &--transparent {
+    background-color: transparent;
+  }
+
+  &--next {
+    right: 30px;
+    background-image: url('../images/icons/arrow-right.svg');
+  }
+
+  &--prev {
+    left: 30px;
+    background-image: url('../images/icons/arrow-left.svg');
+  }
+
+  &--next-yellow {
+    right: 30px;
+    background-image: url('../images/icons/Arrow 2.svg');
+  }
+}

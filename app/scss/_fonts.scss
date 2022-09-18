@@ -1,0 +1,6 @@
+// @mixin font-woff($font-family, $url, $weight, $style);
+@include font-woff2("Montserrat", "Montserrat-Regular", 400, normal);
+@include font-woff2("Montserrat", "Montserrat-ExtraBold", 700, normal);
+@include font-woff2("WorkSans", "WorkSans-Regular", 400, normal);
+@include font-woff2("WorkSans", "WorkSans-Medium", 500, normal);
+@include font-woff2("WorkSans", "WorkSans-SemiBold", 600, normal);

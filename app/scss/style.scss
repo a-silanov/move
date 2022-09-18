@@ -1,0 +1,29 @@
+@import 'reset';
+@import 'mixin';
+@import 'fonts';
+@import 'vars';
+@import 'global';
+@import 'libs';
+
+@import './components/header';
+@import './components/hero';
+@import './components/about';
+@import './components/education';
+@import './components/education-article';
+@import './components/coaching';
+@import './components/reviews';
+@import './components/video';
+@import './components/products';
+@import './components/training';
+@import './components/contacts';
+@import './components/about-person';
+@import './components/practice';
+@import './components/workshop';
+@import './components/student-reviews';
+@import './components/retreats';
+@import './components/footer';
+
+//small components
+@import './components/modal';
+@import './components/training-card';
+@import './components/social';
