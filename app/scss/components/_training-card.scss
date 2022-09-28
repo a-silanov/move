@@ -169,6 +169,7 @@
     display: inline-block;
     margin-bottom: 10px;
     color: #565A5D;
+    font-weight: 600;
 
     @include mobile {
       margin-bottom: 0;
@@ -232,7 +233,7 @@
 
       .training-card__img {
         width: 100%;
-        height: 285px;
+        height: 205px;
         margin-right: 0;
         margin-bottom: 15px;
       }

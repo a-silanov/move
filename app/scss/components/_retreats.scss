@@ -22,7 +22,7 @@
 
     @include small-tablet {
       height: 250px;
-      margin-bottom: 85px;
+      margin-bottom: 55px;
     }
   }
 
@@ -30,6 +30,10 @@
     max-width: 590px;
     margin: 0 auto;
     text-align: center;
+
+    @include mobile {
+      max-width: 300px;
+    }
   }
 
   &__subtitle {
@@ -44,6 +48,7 @@
 
   &__text {
     margin-bottom: 10px;
+    font-size: 16px;
   }
 
   &__form {

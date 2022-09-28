@@ -139,6 +139,10 @@
   &__link {
     align-self: flex-start;
     margin-top: auto;
+
+    @include small-tablet {
+      width: 100%;
+    }
   }
 
   &--products {

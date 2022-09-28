@@ -81,7 +81,11 @@
     </p>
   </div>
   <div class="retreats__banner">
-    <img src="./images/retreats-banner.jpg" loading="lazy" aria-hidden="true" alt="" width="1920" height="330">
+    <picture>
+      <source media="(min-width: 650px)" srcset="./images/retreatsbig.jpg">
+      <source media="(min-width: 320px)" srcset="./images/retreatssmall.jpg">
+      <img class="test__img" src="./images/retreatsbig.jpg" alt="Lukas" style="width:100%;">
+    </picture>
   </div>
   <div class="container">
     <div class="retreats__box">
@@ -108,7 +112,7 @@
   <div class="container footer__container">
     <ul class="social">
       <li class="social__item">
-        <a class="social__link social__link--insta" href="https://www.instagram.com/lukasflint/" target="_blank" aria-label="Our intagram page">
+        <a class="social__link social__link--insta" href="#" target="_blank" aria-label="Our intagram page">
           <svg>
             <use xlink:href="images/sprite.svg#insta"></use>
           </svg>

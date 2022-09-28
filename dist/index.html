@@ -116,7 +116,7 @@
             We are meant to move
           </h2>
           <p class="hero__descr">
-            Join our community and develop a body you can trust
+            Join our community and develop a body you can trust 
           </p>
           <div class="hero__btns">
             <a class="hero__link btn btn--orange" href="#link">
@@ -146,7 +146,7 @@
     </div>
     <div class="about__right">
       <h3 class="about__subtitle">
-        Hello and welcome
+        Hello and welcome 
       </h3>
       <div class="about__text">
         <p>
@@ -165,6 +165,7 @@
     </div>
   </div>
 </section>
+
     <section class="education" id="link">
   <div class="container">
     <h2 class="title education__title">
@@ -295,35 +296,34 @@
   </div>
 </section>
     <section class="coaching">
-  <div class="container">
+  <div class="coaching__container">
     <div class="coaching__inner">
       <div class="coaching__img">
         <img src="./images/coaching-img.jpg" loading="lazy" alt="coaching img" width="670" height="400">
       </div>
-      <div class="coaching__info">
+      <div class="container coaching__info">
         <h2 class="coaching__title title">
           Online coaching and programs
         </h2>
-        <p class="coaching__descr">
-          An effective online training with our app
-        </p>
         <p class="coaching__text">
-          Have a look at different online programs to be able to learn from everywhere. Sending in videos to get online feedback is also possible.
+          We are Lukas Flint and Franziskus Hielscher, movers based in Berlin and founders of and coaches at Organic Movement Berlin. Our goal ist to provide you with approved knowledge and technique.
         </p>
-        <div class="coaching__links">
-          <a class="coaching__link btn btn--blue" href="#">
+        <a class="coaching__link btn btn--blue" href="#">
           move online
-        </a></div>
-
+        </a>
       </div>
     </div>
-    <blockquote class="coaching__blockquoute">
+    <blockquote class="container coaching__blockquoute">
       I believe in the ability of each and every person to build awareness for their bodies and discover their personal way to move and thrive physically and mentally.
     </blockquote>
   </div>
-  <div class="coaching__bigimg">
-    <img src="./images/coaching-bigimg.jpg" loading="lazy" aria-hidden="true" alt="" width="1400" height="775">
-  </div>
+  <div class="coaching__picture">
+    <picture>
+      <source media="(min-width: 650px)" srcset="./images/coaching-bigimg.jpg">
+      <source media="(min-width: 320px)" srcset="./images/test.jpg">
+      <img class="test__img" src="./images/coaching-bigimg.jpg" alt="Lukas" style="width:100%;">
+    </picture>
+  </div>  
 </section>
     <section class="reviews">
   <div class="container reviews__container">
@@ -332,12 +332,30 @@
         What do the students say about my training approach?
       </h2>
       <p class="reviews__text">
-        The participants of my regular classes and other events can best say why they feel in good hands with my way of the training.
+        The participants of my regular classes and other events can best say why they feel in good hands with my way of training.
       </p>
     </div>
     <div class="reviews__right">
       <div class="swiper reviews__slider">
         <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="reviews__box">
+              <div class="reviews__img">
+                <img src="./images/reviews/3.jpg" loading="lazy" alt="review" width="175" height="175">
+              </div>
+              <div class="reviews__inner">
+                <span class="reviews__name">
+                  Tommes <br>
+                </span>
+                <span class="reviews__descr">
+                  Martial artist
+                </span>
+              </div>
+              <p class="reviews__сomment">
+                “Lukas explains precise and takes time for individual and friendly feedback during workshops.”
+              </p>
+            </div>
+          </div>
           <div class="swiper-slide">
             <div class="reviews__box">
               <div class="reviews__img">
@@ -348,29 +366,11 @@
                   Anni <br>
                 </span>
                 <span class="reviews__descr">
-                  Marketing
+                  Softwaredeveloper
                 </span>
               </div>
               <p class="reviews__сomment">
-                “Highly recommend to join his workshops. I joined the handstand workshop and loved every second of it!”
-              </p>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="reviews__box">
-              <div class="reviews__img">
-                <img src="./images/reviews/1.jpg" loading="lazy" alt="review" width="175" height="175">
-              </div>
-              <div class="reviews__inner">
-                <span class="reviews__name">
-                  Timo <br>
-                </span>
-                <span class="reviews__descr">
-                  Strength and mobility class
-                </span>
-              </div>
-              <p class="reviews__сomment">
-                “Thanks to Organic Movement, I found the right training routine for me after just two classes.”
+                “I love the focused but playful atmosphere in the workshops and classes.”
               </p>
             </div>
           </div>
@@ -381,14 +381,14 @@
               </div>
               <div class="reviews__inner">
                 <span class="reviews__name">
-                  Liza <br>
+                  Lena <br>
                 </span>
                 <span class="reviews__descr">
-                  Strength and mobility class
+                  Marketing Manager
                 </span>
               </div>
               <p class="reviews__сomment">
-                “Thanks to Organic Movement, I found the right training routine for me after just two classes.”
+                “Highly recommend to join his workshops. I joined the handstand workshop and loved every second of it!”
               </p>
             </div>
           </div>
@@ -399,11 +399,11 @@
         </button>
       </div>
       <div class="reviews__links">
-        <a class="reviews__link btn btn--blue" href="#">
-          move online
-        </a>
         <a class="reviews__link btn btn--orange" href="#">
           move offline
+        </a>
+        <a class="reviews__link btn btn--blue" href="#">
+          move online
         </a>
       </div>
     </div>
@@ -414,7 +414,7 @@
   <div class="container footer__container">
     <ul class="social">
       <li class="social__item">
-        <a class="social__link social__link--insta" href="https://www.instagram.com/lukasflint/" target="_blank" aria-label="Our intagram page">
+        <a class="social__link social__link--insta" href="#" target="_blank" aria-label="Our intagram page">
           <svg>
             <use xlink:href="images/sprite.svg#insta"></use>
           </svg>
