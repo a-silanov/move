@@ -214,13 +214,44 @@
   }
 }
 
-.body--workshop {
+
+// Backgrounds
+.main--workshop {
   background-image: url('../images/body-bg/workshop-bg.png');
-  background-size: 100% 92%;
-  background-position: left top 8vh;
+  background-size: 100% 100%;
+  background-position: left top;
+  background-repeat: no-repeat;
   @include tablet {
     background-image: url('../images/body-bg/workshopsmob.png');
     //background-position: left top 1vh;
     background-size: 100% 90%;
   }
+}
+
+.main--retreats {
+  background-image: url('../images/body-bg/retreats-bg.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: left top 2vh;
+  @include tablet {
+  background-image: url('../images/body-bg/retreatsmob.png');
+  background-position: left top 7vh;
+  background-size: 100% 60%;
+  background-repeat: no-repeat;
+  }
+}
+
+.main--contact {
+  background-image: url('../images/body-bg/contacts-bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  @include tablet {
+    background: none;
+    }
+}
+
+.container--contact {
+  background-image: url('../images/contacts-bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
