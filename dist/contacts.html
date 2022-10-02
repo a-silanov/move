@@ -14,7 +14,7 @@
   <link rel="preload" as="font" href="./fonts/WorkSans-SemiBold.woff2" type="font/woff2" crossorigin="anonymous">
 </head>
 
-<body class="body body--contacts" style="background-image: url('./images/body-bg/contacts-bg.png');">
+<body class="body body--contacts">
 
   <header class="header">
   <div class="container header__container">
@@ -67,18 +67,19 @@
     </nav>
   </div>
 </header>
-  <main class="main">
+  <main class="main main--contact">
     <h1 class="sr-only">
       Contacts page
     </h1>
-    <section class="contacts" style="background-image: url('./images/contacts-bg.jpg');">
+    <section class="contacts">
   <h2 class="contacts__title">
     Contact
   </h2>
   <p class="contacts__descr">
     Feel free to contact us if you have any question
   </p>
-  <div class="container">
+  <div class="container--contact">
+    <div class="contact-wrapper">
     <form class="contacts__form" action="#">
       <h3 class="contacts__subtitle">
         Write us a message
@@ -113,6 +114,7 @@
         send message
       </button>
     </form>
+  </div>
   </div>
 </section>
   </main>
