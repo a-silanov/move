@@ -213,3 +213,14 @@
     background-image: url('../images/icons/arrow1.svg');
   }
 }
+
+.body--workshop {
+  background-image: url('../images/body-bg/workshop-bg.png');
+  background-size: 100% 92%;
+  background-position: left top 8vh;
+  @include tablet {
+    background-image: url('../images/body-bg/workshopsmob.png');
+    //background-position: left top 1vh;
+    background-size: 100% 90%;
+  }
+}

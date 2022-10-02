@@ -4,11 +4,12 @@
   width: 100%;
   height: 100%;
   padding-bottom: 24px;
-  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 0px 3.63991px 1.81995px rgb(0 0 0 / 25%);
   border-radius: 6px;
   background-color: $color-white;
   overflow: hidden;
   position: relative;
+  opacity: 1.2;
 
   &__img {
     width: 100%;

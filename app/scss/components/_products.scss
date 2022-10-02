@@ -134,3 +134,21 @@
 .next-yellow {
   background-image: url(../images/icons/arrow1.svg);
 }
+
+.swiper-3d .swiper-slide-shadow-left {
+  background-image: none !important;
+  box-shadow: 0px 0px 3.63991px 1.81995px rgb(0 0 0 / 25%) !important;
+}
+
+.swiper-3d .swiper-slide-shadow-right {
+  background-image: none !important;
+  box-shadow: 0px 0px 3.63991px 1.81995px rgb(0 0 0 / 25%) !important;
+}
+
+.swiper-slide-next, .swiper-slide-visible {
+  opacity: 0.6;
+}
+
+.swiper-slide-active {
+  opacity: 1 !important;
+}

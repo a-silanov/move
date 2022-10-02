@@ -121,6 +121,7 @@
   }
 
   &__item {
+    display: flex;
     &:not(:last-child) {
       margin-bottom: 4px;
     }
@@ -140,7 +141,7 @@
 
     &--time {
       background-image: url('../images/icons/time.svg');
-    }
+        }
 
     &--address {
       background-image: url('../images/icons/marker.svg');
