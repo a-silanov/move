@@ -11,6 +11,10 @@
     line-height: 40px;
     color: #2C3135;
     text-align: center;
+
+    @include tablet{
+      margin-bottom: 6px;
+    }
   }
 
   &__descr {

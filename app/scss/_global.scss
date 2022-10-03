@@ -66,9 +66,11 @@
 
   @include small-tablet {
     font-size: 24px;
+    margin-bottom: 6px;
 
     &--big {
       font-size: 30px;
+      margin-bottom: 6px;
     }
   }
 }
@@ -189,8 +191,8 @@
   background-repeat: no-repeat;
   @include tablet {
     background-image: url('../images/body-bg/workshopsmob.png');
-    //background-position: left top 1vh;
-    background-size: 100% 90%;
+    background-position: left top 2vh;
+    background-size: 100% 100%;
   }
 }
 
@@ -230,12 +232,34 @@
 
   @include tablet {
   background-image: url('../images/body-bg/aboutmobile.png');
-  background-size: 100% 100%; 
+  background-size: cover; 
   }
 }
 
 .main--classes {
-  background-image: url('../images/body-bg/classesdesc.png');
+  background-image: url('../images/body-bg/training-body.png');
   background-repeat: no-repeat;
   background-size: cover;
+
+  @include tablet {
+    background: none;
+  }
+}
+
+.video__inner {
+  background: none;
+  @include tablet {
+    background-image: url('../images/body-bg/videoinner.png');
+    background-repeat: no-repeat;
+    background-size: 100% 106%;
+  }
+}
+
+.training {
+  background: none;
+  @include tablet{
+    background-image: url('../images/body-bg/training.png');
+    background-repeat: no-repeat;
+    background-size: 100% 94%;
+  }
 }

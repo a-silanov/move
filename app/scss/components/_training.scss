@@ -119,10 +119,11 @@
 
     @include small-tablet {
       font-size: 30px;
+      line-height: 42px;
     }
   }
 
   @include small-tablet {
-    padding-top: 120px;
+    padding-top: 80px;
   }
 }

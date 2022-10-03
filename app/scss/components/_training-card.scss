@@ -255,3 +255,9 @@
     }
   }
 }
+
+.training__title {
+  @include tablet {
+    margin-bottom: 6px;
+  }
+}

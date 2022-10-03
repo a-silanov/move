@@ -65,6 +65,10 @@
 
   &__text {
     margin-bottom: 24px;
+
+    @include tablet {
+      line-height: 30px;
+    }
   }
 
   &__blockquoute {
@@ -77,10 +81,12 @@
     font-weight: 500;
     font-size: 36px;
     color: #A7ACAE;
+    line-height: 52px;
 
     @include small-tablet {
       padding-top: 150px;
       padding-bottom: 70px;
+      width: 300px;
     }
 
     @include mobile {
