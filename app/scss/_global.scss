@@ -20,40 +20,6 @@
       padding-top: 0;
     }
   }
-
-  &--training {
-    background-position: left top 40px;
-    background-size: 100% 100%;
-  }
-
-  &--contacts {
-    background-position: right top;
-    background-size: 70% 100%;
-  }
-
-  &--about {
-    background-position: left top;
-    background-size: 100% 95%;
-  }
-
-  &--workshop {
-    background-position: left top 5vh;
-    background-size: 100% 94%;
-  }
-
-  &--retreats {
-    background-position: left top;
-    background-size: 100% 82%;
-  }
-
-  @include mobile {
-    font-size: 16px;
-
-    &--main {
-      background-position: left -8vh top 70vh;
-      background-size: cover;
-    }
-  }
 }
 
 .body--hidden {
@@ -236,7 +202,7 @@
   @include tablet {
   background-image: url('../images/body-bg/retreatsmob.png');
   background-position: left top 7vh;
-  background-size: 100% 60%;
+  background-size: 100% 82%;
   background-repeat: no-repeat;
   }
 }
@@ -254,4 +220,22 @@
   background-image: url('../images/contacts-bg.jpg');
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.main--about {
+  background-image: url('../images/body-bg/aboutdesc.png');
+  background-repeat: no-repeat;
+  background-size: 100% 102%;
+  background-position: left top;
+
+  @include tablet {
+  background-image: url('../images/body-bg/aboutmobile.png');
+  background-size: 100% 100%; 
+  }
+}
+
+.main--classes {
+  background-image: url('../images/body-bg/classesdesc.png');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
