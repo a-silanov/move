@@ -1,6 +1,10 @@
 .hero {
   height: 100vh;
 
+  @include bigdesc {
+    height: 70vh;
+  }
+
   .swiper {
     height: 100%;
   }

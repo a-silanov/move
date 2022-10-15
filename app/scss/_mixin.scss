@@ -60,3 +60,9 @@
     @content;
   }
 }
+
+@mixin bigdesc {
+  @media (min-width: (1641px)) {
+    @content;
+  }
+}

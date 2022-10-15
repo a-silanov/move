@@ -23,6 +23,10 @@
     font-size: 20px;
     color: #808386;
     margin-bottom: 50px;
+    @include small-tablet {
+      max-width: 300px;
+      margin: 0 auto 50px auto;
+    }
   }
 
   &__form {
@@ -154,7 +158,7 @@
   padding-bottom: 150px;
   display: flex;
   justify-content: flex-end;
-  padding-right: 40px;
+  padding-right: 140px;
 
   @include tablet {
     margin: 0 auto;

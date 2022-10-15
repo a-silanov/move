@@ -32,7 +32,7 @@
   }
 
   &__content {
-    max-width: 480px;
+    max-width: 780px;
 
     @include tablet {
       max-width: 100%;
@@ -74,6 +74,10 @@
   &--second {
     padding-top: 124px;
     padding-bottom: 124px;
+
+    .about-person__content {
+      margin-right: 40px;
+    }
 
     .about-person__img {
       margin-right: 0;

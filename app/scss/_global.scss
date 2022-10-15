@@ -8,16 +8,20 @@
   overflow-x: hidden;
   position: relative;
   background-repeat: no-repeat;
-  max-width: 1440px;
+  max-width: 1928px;
   margin: 0 auto;
+  box-shadow: 0 5px 15px 0 rgb(0 0 0 / 25%);
+
 
 
   &--main {
     background-position: left top 99vh;
     background-size: 100% 85%;
+    background-color: #F2F2F2;
 
     .main {
       padding-top: 0;
+      background-color: white;
     }
   }
 }
@@ -27,7 +31,7 @@
 }
 
 .container {
-  max-width: 1080px;
+  max-width: 1440px;
   width: 100%;
   padding: 0 15px;
   margin: 0 auto;
@@ -184,6 +188,17 @@
 
 
 // Backgrounds
+.main--index {
+  background-image: url('../images/body-bg/tests.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  @include tablet {
+  background-image: url('../images/body-bg/bgg.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+ }
+}
+
 .main--workshop {
   background-image: url('../images/body-bg/workshop-bg.png');
   background-size: 100% 100%;
@@ -225,21 +240,34 @@
 }
 
 .main--about {
-  background-image: url('../images/body-bg/aboutdesc.png');
+  background-image: url('../images/body-bg/abhead.png');
   background-repeat: no-repeat;
-  background-size: 100% 102%;
+  background-size: cover;
   background-position: left top;
 
   @include tablet {
-  background-image: url('../images/body-bg/aboutmobile.png');
-  background-size: cover; 
+  background-image: url('../images/body-bg/abmobhead.png');
+  background-size: 100% 100%; 
+  }
+}
+
+.about-person--second {
+  background-image: url('../images/body-bg/uni.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left top 1vh;
+  @include tablet {
+    background-image: url('../images/body-bg/abmobfoo.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
   }
 }
 
 .main--classes {
   background-image: url('../images/body-bg/training-body.png');
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 104%;
+  background-position: left top 4vh;
 
   @include tablet {
     background: none;
