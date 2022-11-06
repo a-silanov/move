@@ -2,7 +2,7 @@
   padding-top: 120px;
 
   &__container {
-  max-width: 1440px;
+  max-width: 1080px;
   width: 100%;
   padding: 0 15px;
   margin: 0 auto;
@@ -18,7 +18,7 @@
   }
 
   &__right {
-    width: 620px;
+    width: 420px;
 
     @include tablet {
       width: 100%;
@@ -74,7 +74,7 @@
   }
 
   &__img {
-    max-width: 670px;
+    max-width: 620px;
     max-height: 590px;
     height: 100%;
     margin-right: 24px;
