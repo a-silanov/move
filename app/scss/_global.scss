@@ -204,9 +204,11 @@
 }
 
 .about {
-  background-image: url('../images/body-bg/aa.png');
+  @include tablet {
+  background-image: url('../images/body-bg/pr.png');
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
+  }
 }
 
 .main--workshop { 
