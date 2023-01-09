@@ -6,7 +6,7 @@ const productsTab = document.querySelectorAll('.products__tab');
 const productsItem = document.querySelectorAll('.products__item');
 const textarea = document.querySelector('.contacts__textarea');
 const characterNums = document.querySelector('.contacts__character>.contacts__num');
-const btnModal = document.querySelectorAll('[data-modal]');
+const btnModal = document.querySelectorAll('.mod');
 const btnDropdown = document.querySelector('a[data-dropdown]');
 
 //Открытие дропдуна в бургере(начало)

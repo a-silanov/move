@@ -128,3 +128,14 @@
     padding-top: 80px;
   }
 }
+
+.onlinetraining {
+  font-size: 125px;
+  text-align: center;
+  padding: 50px 25px 150px 25px;
+
+  @include small-tablet {
+    font-size: 40px;
+    padding: 30px 25px 100px 25px;
+  }
+}

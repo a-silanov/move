@@ -22,7 +22,7 @@
     }
 
     @include mobile {
-      width: 40%;
+      max-width: 120px;
       height: inherit;
       margin-right: 10px;
       margin-bottom: 0;
@@ -171,6 +171,7 @@
     margin-bottom: 10px;
     color: #565A5D;
     font-weight: 600;
+    font-size: 15px;
 
     @include mobile {
       margin-bottom: 0;
@@ -211,7 +212,8 @@
 
     .training-card__img {
       border-radius: 0;
-      height: 285px;
+      height: 485px;
+      max-width: 100%;
     }
 
     .training-card__title {
